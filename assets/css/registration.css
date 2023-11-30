@@ -1,0 +1,74 @@
+*{
+    font-family: 'roboto';
+}
+
+.signup{
+    margin-top: 100px;
+  }
+  h2{
+    color: #2E6A99;
+    font-family:'roboto';
+    font-size:32px;
+  }
+
+  .user-type{
+    position: absolute;
+    top: 200px;
+  }
+
+  .admin{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius:10px 10px 0px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    left: 300px;
+  }
+
+  .admin:hover{
+    transform: scale(1.08);
+  }
+
+  .admin img{
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    width: 300px;
+  }
+
+  .box1{
+    width: 300px;
+    height: 30px;
+    background-color: #2E6A99;
+    color: white;
+    font-size: 24px;
+
+    position: absolute;
+    top: 300px;
+
+  }
+
+  .user{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    left: 700px;
+  }
+
+  .user:hover{
+    transform: scale(1.08);
+  }
+
+  .user img{
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    width: 300px;
+  }
+
+
+ 

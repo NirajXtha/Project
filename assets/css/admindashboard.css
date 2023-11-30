@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+
+  body {
+    background-color:lightblue;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+   
+  header {
+    height: 70px;
+    width: 100vw;
+    padding: 0 30px;
+    background-color:white ;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  .logo {
+    font-size: 27px;
+    font-weight: 600;
+    color:  #2E6A99;
+  }
+   
+  .menuicon {
+    cursor: pointer;
+  }
+   
+  .search,.logosec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .logosec {
+    gap: 60px;
+  }
+   
+  .search input {
+    width: 250px;
+    height: 42px;
+    border-radius: 50px 0 0 50px;
+    background-color:lightgray;
+    padding: 0 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+  }
+
+  .searchbtn {
+    width: 50px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #2E6A99;
+    cursor: pointer;
+  }
+   
+  .nav {
+    height: 645px;
+    width: 250px;
+    background-color:white;
+    position: absolute;
+    top: 0px;
+    left: 00;
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 30px 0 20px 10px;
+  }
+
+  .nav-upper-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    position: relative;
+    top: 100px;
+  }
+
+  .option, .option2, .option3, .option4, .option5, .logout {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0 20px;
+    gap: 20px;
+    text-decoration: none;
+  }
+ 
+  h3{
+    color:#2E6A99;
+  }
+
+   
+  .analytics {
+    display: none;
+  }
+   
+  .box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+
+  .box {
+    height: 130px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 30, 87, 0.751);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    
+    position: relative;
+    top: 100px;
+    left: 130px;
+
+  }
+  .box:hover {
+    transform: scale(1.08);
+  }
+
+  .box .text {
+    color: white;
+  }
+
+  

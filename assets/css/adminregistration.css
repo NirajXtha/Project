@@ -1,0 +1,68 @@
+.admin {
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    position: absolute;
+    top: 40px;
+    left: 350px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #2E6A99;
+    font-size: 32px;
+    font-family: 'roboto';
+    font-weight: bold;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2E6A99;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .form input {
+    width:485px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .register-btn {
+    background-color:#2E6A99;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 110px;
+    
+    position: absolute;
+    left: 200px;
+    top: 520px;
+  }
+
+  .register-btn:hover{
+    background-color: rgb(3, 38, 104);
+  }
+
+  .register-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    
+  }
+  
+
+  

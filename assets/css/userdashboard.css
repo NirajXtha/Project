@@ -1,0 +1,486 @@
+*{
+    font-family: 'roboto';
+    
+}
+
+.top{
+    height: 50px;
+    width: 100wh;
+}
+
+.top a{
+    text-decoration: none;
+    color: #2E6A99;
+}
+
+.top a:hover{
+    color: rgb(3, 38, 104);
+}
+
+/*search*/
+.search-container {
+    position: absolute;
+    top: 20px;
+    right: 400px;
+}
+
+.search-input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #2E6A99;
+    border-radius: 5px 0 0 5px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-button {
+    background-color: #2E6A99;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #2E6A99;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: rgb(3, 38, 104);
+    border-color: rgb(3, 38, 104);
+}
+
+/*icon*/
+
+.camera{
+    position: absolute;
+    top: 20px;
+    right:300px;
+}
+.camera a{
+    width: 200px;
+    font-size: 18px;
+    color: black;
+
+    position: absolute;
+    top: 15px;
+}
+.user{
+    position: absolute;
+    top: 20px;
+    right:25px;
+}
+
+/*dropdown*/
+.account {
+    position: relative;
+    display: inline-block;
+  }
+
+.account-btn {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .account-btn:hover{
+    color: rgb(3, 38, 104);
+  }
+  
+  .user-content {
+    display: none;
+    position: absolute;
+    background-color:lightblue;
+    min-width: 90px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .user-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .user-content a:hover {
+    background-color: #f1f1f1
+}
+  
+  .account:hover .user-content {
+    display: block;
+  }
+  
+/*nav*/ 
+.nav{
+    background-color:#2E6A99;
+    color: rgb(3, 38, 104);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li{
+    background-color:#2E6A99;
+    font-size: 24px;
+    padding: 0px 30px 0px 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    background-color: #2E6A99;
+    color: white;
+}
+
+.nav ul li a:hover{
+    color: rgb(3, 38, 104) ;
+    cursor: pointer;
+}
+
+/*main*/
+.main p{
+position: absolute;
+top: 280px;
+left: 50px;
+
+font-size: 22px;
+font-weight: bold;
+font-family:'roboto';
+}
+
+.main h1{
+position: absolute;
+top: 330px;
+left: 78px;
+color: #2E6A99;
+
+font-size: 30px;
+font-weight: bold;
+font-family:'roboto';
+}
+
+.explore-btn{
+position: absolute;
+top: 400px;
+left:100px;
+
+background-color: #2E6A99;
+padding: 15px;
+border: none;
+color: white;
+font-size: 18px;
+}
+
+.explore-btn:hover{
+    background-color:rgb(3, 38, 104) ;
+    cursor: pointer;
+}
+
+/*products*/
+
+.product h1 , .fit h1{
+    color: #2E6A99;
+    font-weight: bold;
+
+}
+
+#line{
+    position: absolute;
+    left: 160px;
+    top:690px;
+
+    width: 1100px;
+    height: 3px;
+    background-color:#2E6A99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     }
+
+/*back, next arrow*/
+.back{
+    position: absolute;
+    right: 50px;
+    top: 675px;
+    cursor: pointer;
+}
+
+.next{
+    position: absolute;
+    right: 10px;
+    top: 675px;
+    cursor: pointer;
+}
+
+/*baby Care*/
+
+.gradient-rect {
+    width: 300px;
+    height: 355px;
+    background: radial-gradient(circle, #2E6A99, lightblue );
+
+  }
+
+  .gradient-rect img{
+    width: 250px;
+    height: 190px;
+
+    position: absolute;
+    top: 895px;
+    left: 45px;
+  }
+
+  /*baby category*/
+
+ .baby{
+    position: absolute;
+    top: 750px;
+ }
+
+ .baby ul{
+    list-style-type: none;
+   
+ }
+
+ .baby ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .baby ul li a:hover{
+    color:rgb(3, 38, 104);
+ }
+
+ .arrow{
+    list-style-image: url(../images/fast-forward.png);
+ }
+/*baby products*/
+
+ .baby-products {
+    gap: 10px;
+    display: flex;
+
+    position: absolute;
+    left: 330px;
+    top:730px;
+}
+
+.box{
+    width:190px;
+    height:310px;
+    background-color:white;
+    border: 1px solid rgb(3, 38, 104);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box:hover{
+    transform: scale(1.08);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.box img {
+    width: 190px;
+    height:210px;
+  
+  }
+
+.box h1{
+    color:black;
+    font-size:18px;
+    text-align: left;
+}
+
+.box p{
+    color: #2E6A99;
+    text-align:left;
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 280px;
+}
+
+
+/*wellness & fitness*/
+#line1{   
+    position: absolute;
+    left:300px;
+    top:1125px;
+    
+    width: 960px;
+    height: 3px;
+    background-color:#2E6A99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.back1{
+    position: absolute;
+    right: 50px;
+    top: 1110px;
+    cursor: pointer;
+}
+        
+.next1{
+    position: absolute;
+    right: 10px;
+    top: 1110px;
+    cursor: pointer;
+}
+
+.gradient-rect1{
+    width: 300px;
+    height: 355px;
+    background: radial-gradient(circle, #2E6A99, lightblue );
+
+  }
+
+.gradient-rect1 img{
+    width: 300px;
+    height: 170px;
+
+    position: absolute;
+    top: 1350px;
+    left: 15px;
+  }
+
+  .fitness{
+    position: absolute;
+    top: 1190px;
+ }
+
+ .fitness ul{
+    list-style-type: none;
+   
+ }
+
+ .fitness ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .fitness ul li a:hover{
+    color:rgb(3, 38, 104);
+ }
+
+ .fitness-products {
+    gap: 10px;
+    display: flex;
+
+    position: absolute;
+    left: 330px;
+    top:1160px;
+}
+
+.box1{
+    width:190px;
+    height:310px;
+    background-color:white;
+    border: 1px solid rgb(3, 38, 104);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box1 a{
+    text-decoration: none;
+}
+
+.box1:hover{
+    transform: scale(1.08);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.box1 img {
+    width: 190px;
+    height:210px;
+  
+  }
+
+.box1 h1{
+    color:black;
+    font-size:18px;
+    text-align: left;
+}
+
+.box1 p{
+    color: #2E6A99;
+    text-align:left;
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 280px;
+}
+
+/*footer*/
+.footer{
+    height: 250px;
+    background-color: lightblue;
+    margin-top: 15px;
+}
+
+.display h1{
+    color: #2E6A99;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.display{
+    display: flex;
+    padding: 10px;
+    gap: 150px;
+}
+
+
+.ways ul,.info ul,.account ul,.about ul{
+    list-style-type: none;
+   
+ }
+
+ .ways ul li a,.info ul li a,.account ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .ways ul li a:hover,.info ul li a:hover,.account ul li a:hover, .about ul li a:hover{
+    color:rgb(3, 38, 104);
+ }
+
+ .about ul li{
+    line-height: 2;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .foot{
+    position: absolute;
+    margin-top: 0;
+    height: 50px;
+    width: 1333px;
+    background-color: #2E6A99;
+ }
+
+ .foot p{
+    color: white;
+    text-align: center;
+    
+ }
